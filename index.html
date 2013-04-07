@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>Engage | A countdown placeholder template</title>
+    	<meta charset="UTF-8">
+    	<!-- Bootstrap --><link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    	<link href="assets/css/style.css" rel="stylesheet">
+  	</head>
+	<body>
+		<div class="container">
+		
+			<div class="centered">
+				<div id="countdown">
+				<h1>Opening Soon.</h1>
+			  		<div class="message">
+				  		<p>The countdown is on! We're working hard and are really excited for the launch of our new site. </p>
+		  				<!-- Inserts links to social pages here -->
+		  				<a class="well" href="#">Click to Follow</a>
+		  				<a class="well" href="#">Click to Like</a>
+	  				</div>
+	  				<!-- Countdown container, do not delete -->
+					<ul id="timer" class="pull-right"></ul>  		
+			  	</div>
+			</div>
+	    
+	
+			
+			</div>
+		</div> 
+	    </div><!-- /.container -->
+    
+    <script src="assets/js/jquery-1.8.1.min.js"></script>
+    <!-- Bootstrap --><script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- Set your launch date below -->
+	<script>
+    jQuery(document).ready(function($) {
+		CreateTimer("timer", {
+			year: 2013,
+			month: 9,
+			day: 28
+		});
+	});
+	</script>
+  </body>
+</html>
